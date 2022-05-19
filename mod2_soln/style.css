@@ -1,3 +1,82 @@
-<style>
+
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        margin:0 ;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    h1{
+        text-align: center;
+        font-size: 175%;
+    }
+    section{
+        width: 32.3%;
+        background-color: beige;
+        margin:0.5%;
+        border: 2px solid black;
+        float: left;
+        height: 150px; 
+        border-radius: 10px;
+    }
+   
     
-</style>
+    #title1, #title2, #title3 {
+        font-size: 125%;
+        font-weight: bold;
+        float: right;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin: 0;
+        padding: 10px;
+        border-left: 1.5px solid black;
+        border-bottom: 1.5px solid black;
+    }
+    
+    p{
+        clear:both;
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer{
+        color: white;
+        text-align: center;
+        background-color: black;
+        margin: 0.5%;
+        padding: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position:fixed;
+        width: 99%;
+        bottom:0;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+        #sec1, #sec2{
+            width: 49%;
+            background-color: beige;
+            border: 2px solid black;
+            float: left;
+            border-radius: 10px;
+        }
+        #sec3{
+            width: 99%;
+            margin-right: 0.5%;
+            background-color: beige;
+            border: 2px solid black;
+            float: left;
+            border-radius: 10px;
+        }
+    }
+    @media (max-width: 767px){
+        #sec1, #sec2, #sec3{
+            width: 99%;
+            margin-right: 0.5%;
+            background-color: beige;
+            border:2px solid black;
+            float: left;
+            border-radius: 10px;
+        }
+    }
+
